@@ -5,7 +5,6 @@ import {logo} from "@/public";
 import {motion, useScroll, useTransform} from "motion/react";
 import Image from "next/image";
 import Link from "next/link";
-import {useState} from "react";
 import MobileNav from "./MobileNav";
 
 export default function Navbar() {
