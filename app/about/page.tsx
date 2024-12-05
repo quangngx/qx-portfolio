@@ -3,7 +3,6 @@ import Navbar from "@/components/Utilities/NavBar";
 import {Footer, Services, Testimonials} from "@/components";
 import {services} from "@/constants";
 
-
 export default function AboutPage() {
     return (
         <div>
