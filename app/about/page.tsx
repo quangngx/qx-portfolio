@@ -2,8 +2,7 @@
 import Navbar from "@/components/Utilities/NavBar";
 import {Footer, Services, Testimonials} from "@/components";
 import {services} from "@/constants";
-import {motion} from "motion/react";
-import Image from "next/image";
+
 
 export default function AboutPage() {
     return (
