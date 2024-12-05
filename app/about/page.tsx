@@ -1,0 +1,61 @@
+"use client"
+import Navbar from "@/components/Utilities/NavBar";
+import {Footer, Services, Testimonials} from "@/components";
+import {services} from "@/constants";
+import {motion} from "motion/react";
+import Image from "next/image";
+
+export default function AboutPage() {
+    return (
+        <div>
+            <Navbar/>
+            <section className="max-w-[95%] mx-auto pt-[8em] lg:pt-[15vw] ">
+                <div className={"flex flex-col md:flex-row justify-between md:items-end pb-[3em] md:pb-[5em]"}>
+                    <p className="md:basis-[47%] lg:basis-[50%] uppercase text-[3em] font-anton tracking-[-0.0475em] leading-[0.94] md:text-[3.5em] lg:text-[6vw] ">
+                        About my creative journey
+                    </p>
+                    <p className="md:basis-[40%] xl:basis-[25%] uppercase font-switzer font-semibold leading-[1] tracking-[-.065em] text-[1.25em] xl:text-[1.66vw]">
+                        Blending Expert Craft and Creative Vision to Drive Lasting Business Success
+                    </p>
+                </div>
+                <div className={" grid grid-cols-3 gap-4"}>
+                    {services.map((item) => (
+                        <div key={item.id}
+                             className={"bg-[--light-grey] h-[30vw] flex justify-center items-center"}>
+                            <div className={"text-[1.5em] font-semibold font-switzer uppercase"}>
+                                {item.title}
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </section>
+            <section className={"relative max-w-[95%] mx-auto py-[3em] md:py-[4rem]"}>
+                <h2 className="uppercase text-[2.5em] xl:text-[4.5em] font-anton tracking-[-.0475em] leading-[1] lg:font-medium">
+                    Step into my world
+                </h2>
+                <p className={"pt-[16px] xl:pt-[48px]" +
+                    " font-semibold leading-[1] text-[1.75em] md:text-[2.5em] xl:text-[3.5em] xl:tracking-[-0.06em]"}>
+                    I’m Quang Nguyễn ( @quangngx), a designer and creative director who’s spent 4 years crafting visual
+                    stories
+                    that stick. From branding to video production, I love turning ideas into experiences. Whether
+                    leading a team or diving into the details, my goal is simple: make every project unforgettable
+                    creations.
+                </p>
+            </section>
+            <Services/>
+            <section className="relative max-w-[95%] mx-auto flex flex-col ">
+                <div className={""}>
+                    <h2 className="uppercase text-[2.5em] font-anton tracking-[-.0475em] leading-[0.94] xl:text-[4.5em] lg:font-medium">
+                        Work Process
+                    </h2>
+                    <p className={"py-[16px] font-semibold text-[1.125em] sm:text-[1.25em] lg:text-[1.5em] leading-[1.05] tracking-[-0.06em]"}>
+                        Take a look at my professional experience, showcasing the
+                        key roles and skills that have shaped my creative journey.
+                    </p>
+                </div>
+            </section>
+            <Testimonials/>
+            <Footer/>
+        </div>
+    );
+}
