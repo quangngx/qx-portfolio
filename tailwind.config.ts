@@ -5,6 +5,8 @@ export default {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./animations/**/*.{js,ts,jsx,tsx,mdx}",
+    "./containers/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -12,6 +14,20 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        anton: ["Anton", "sans-serif"],
+        switzer: ["Switzer", "sans-serif"],
+      },
+      screens: {
+        sm: "479px",
+
+        md: "768px",
+
+        lg: "991px",
+
+        xl: "1024px",
+      },
+
     },
   },
   plugins: [],
