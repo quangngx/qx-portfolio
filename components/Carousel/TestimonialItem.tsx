@@ -1,5 +1,5 @@
-import {BiSolidQuoteLeft} from "react-icons/bi";
-import {TtestimonialItemProps} from "@/types";
+import { TtestimonialItemProps } from "@/types";
+import { BiSolidQuoteLeft } from "react-icons/bi";
 
 export default function TestimonialItem({content, author} : TtestimonialItemProps) {
     return (
