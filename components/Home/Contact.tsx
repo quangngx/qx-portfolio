@@ -60,8 +60,8 @@ export default function Contact() {
 
                         {/* Logo and Signature Section */}
                         <div className="basis-[50%] md:basis-[25%] flex flex-col justify-start  ">
-                            <Image className={'max-h-[40px] w-fit'} src={logo} alt="quangngx logo" />
-                            <Image className={'max-h-[96px] w-fit '} src={signature} alt="signature" />
+                            <Image className={'max-w-[200px] w-fit'} src={logo} alt="quangngx logo" />
+                            <Image className={'max-w-[150px] w-fit '} src={signature} alt="signature" />
                         </div>
                     </div>
                 </div>
