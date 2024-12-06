@@ -13,7 +13,7 @@ export default function Footer() {
             </div>
           <div className={"flex flex-col sm:flex-row sm:justify-start gap-4 justify-center items-center font-switzer uppercase font-semibold text-[1em]"}>
               <Link href={"/about"}>About</Link>
-              <Link href={"/projects"}>Projects</Link>
+              <Link href={"/portfolio"}>Portfolio</Link>
               <Link href={"/contact"}>Contact</Link>
           </div>
       </div>

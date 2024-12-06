@@ -33,11 +33,9 @@ export default function AboutPage() {
                 </h2>
                 <p className={"pt-[16px] xl:pt-[48px]" +
                     " font-semibold leading-[1] text-[1.75em] md:text-[2.5em] xl:text-[3.5em] xl:tracking-[-0.06em]"}>
-                    I’m Quang Nguyễn ( @quangngx), a designer and creative director who’s spent 4 years crafting visual
-                    stories
-                    that stick. From branding to video production, I love turning ideas into experiences. Whether
-                    leading a team or diving into the details, my goal is simple: make every project unforgettable
-                    creations.
+                    I’m Quang Nguyễn ( @quangngx), a designer and creative developer with 4 years of turning big ideas
+                    into things that actually look and work great. From designs that catch eyes to interactions that
+                    feel just right, I make sure every project stands out—and doesn’t put anyone to sleep.
                 </p>
             </section>
             <Services/>
