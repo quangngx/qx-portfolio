@@ -109,6 +109,7 @@ body {
 }
 
 .nav-overlay {
+    display: none;
     width: 100%;
     position: absolute;
     top: 100%;
