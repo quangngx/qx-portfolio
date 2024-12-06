@@ -149,7 +149,37 @@ body {
     display: block;
 }
 
+.all-caps-paragraph-1-5em {
+    letter-spacing: -.065em;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.05;
+}
+
+.paragraph-1-5em {
+    letter-spacing: -.06em;
+    text-transform: none;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.05;
+}
+
+@media screen and (max-width: 767px) {
+    .all-caps-paragraph-1-5em {
+        font-size: 1.25em;
+    }
+}
+
 @media screen and (max-width: 479px) {
+    .all-caps-paragraph-1-5em {
+        font-size: 1.1em;
+    }
+
+    .paragraph-1-5em {
+        font-size: 1.125rem;
+    }
+
     .hero-service-item {
         border-bottom: var(--radius-strokes) solid var(--light-grey);
         margin-bottom: .75em;
@@ -157,3 +187,13 @@ body {
     }
 
 }
+
+@media screen and (max-width: 991px) {
+    .all-caps-paragraph-1-5em {
+        font-size: 1.25em;
+    }
+    .paragraph-1-5em {
+        font-size: 1.25em;
+    }
+}
+

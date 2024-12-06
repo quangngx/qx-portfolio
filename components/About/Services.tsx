@@ -11,9 +11,11 @@ export const Services = () => {
             </h2>
             <div className={" relative grid grid-cols-1 md:grid-cols-3 gap-4 mt-[3vw]"}>
                 {services.map((item) => (
-                    <motion.div key={item.id}
-                                initial="initial"
-                                whileHover="hovered"
+                    <motion.div
+                        className={"hidden lg:block"}
+                        key={item.id}
+                        initial="initial"
+                        whileHover="hovered"
                     >
                         <div>
                             <div
@@ -64,11 +66,11 @@ export const Services = () => {
                             }}
                             variants={{
                                 initial: {
-                                    display:"none",
+                                    display: "none",
                                     rotateX: "90deg"
                                 },
                                 hovered: {
-                                    display:"block",
+                                    display: "block",
                                     rotateX: 0
                                 }
                             }}
@@ -76,6 +78,19 @@ export const Services = () => {
                             {item.description}
                         </motion.div>
                     </motion.div>
+                ))}
+                {services.map((item) => (
+                    <div key={item.id} className={"lg:hidden"}>
+                        <div className={"relative"}>
+                            <Image src={contactImage} alt={item.title}/>
+                            <div className={"absolute z-40  bottom-0 p-2 bg-[--white]"}>
+                                <p className={"all-caps-paragraph-1-5em"}>{item.title}</p>
+                            </div>
+                        </div>
+                        <p
+                            className={"py-[16px] paragraph-1-5em"}
+                        >{item.description}</p>
+                    </div>
                 ))}
             </div>
         </section>
