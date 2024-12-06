@@ -17,11 +17,11 @@ export default function Hero() {
                         </p>
                     </div>
                     <div
-                        className="flex flex-col text-[1.1em] lg:text-[2vw] tracking-tighter font-semibold gap-[8px] ">
+                        className="flex flex-col text-[1.1em] lg:text-[2vw] tracking-tighter font-semibold md:gap-2 ">
                         {services.map((item) => (
                             <Link key={item.id}
                                   href={item.href}
-                                  className="flex flex-row items-center justify-between sm:justify-start gap-2">
+                                  className="hero-service-item flex flex-row items-center justify-start md:justify-between sm:justify-start gap-2">
                                 <div>{item.title}</div>
                                 <FaArrowRight className={"h-[90%]"}/>
                             </Link>
