@@ -30,7 +30,7 @@ export default function Navbar() {
         <>
             <motion.nav
                 variants={navVariants}
-                className="w-full fixed top-0 z-[999] py-4  backdrop-blur md:backdrop-blur-0 "
+                className=" hidden md:block w-full fixed top-0 z-[999] py-4 "
             >
                 <div className="w-[95%] mx-auto flex items-center justify-between lg:items-start">
                     <div className="">

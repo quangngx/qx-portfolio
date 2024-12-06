@@ -108,3 +108,38 @@ body {
     height: 35%;
 }
 
+.nav-overlay {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.expanded-nav {
+    z-index: 10;
+    border-bottom: var(--radius-strokes) solid var(--black);
+    background-color: var(--white);
+    flex-flow: column;
+    width: 100%;
+    align-items: stretch;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2.5% 1rem;
+    box-shadow: 0 16px 16px #00000014;
+}
+
+.mobile-nav-item {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1;
+    text-decoration: none;
+    border-style: none none solid;
+    border-bottom-width: var(--radius-strokes);
+    border-bottom-color: var(--light-grey);
+    color: var(--black);
+    border-radius: 0;
+    padding: .5em 0;
+    display: block;
+}
