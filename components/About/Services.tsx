@@ -9,7 +9,7 @@ export const Services = () => {
             <h2 className="uppercase text-[2.5em] font-anton tracking-[-.0475em] leading-[0.94] xl:text-[4.5em] lg:font-medium">
                 What I do, my services
             </h2>
-            <div className={" relative grid grid-cols-3 gap-4 mt-[3vw]"}>
+            <div className={" relative grid grid-cols-1 md:grid-cols-3 gap-4 mt-[3vw]"}>
                 {services.map((item) => (
                     <motion.div key={item.id}
                                 initial="initial"

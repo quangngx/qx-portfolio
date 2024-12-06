@@ -8,7 +8,7 @@ export default function AboutPage() {
         <div>
             <Navbar/>
             <section className="max-w-[95%] mx-auto pt-[8em] lg:pt-[15vw] ">
-                <div className={"flex flex-col md:flex-row justify-between md:items-end pb-[3em] md:pb-[5em]"}>
+                <div className={"flex flex-col gap-4 md:flex-row justify-between md:items-end pb-[3em] md:pb-[5em]"}>
                     <p className="md:basis-[47%] lg:basis-[50%] uppercase text-[3em] font-anton tracking-[-0.0475em] leading-[0.94] md:text-[3.5em] lg:text-[6vw] ">
                         About my creative journey
                     </p>
@@ -21,7 +21,7 @@ export default function AboutPage() {
                         <div key={item.id}
                              className={"bg-[--light-grey] h-[30vw] flex justify-center items-center"}>
                             <div className={"text-[1.5em] font-semibold font-switzer uppercase"}>
-                                {item.title}
+                                {item.id}
                             </div>
                         </div>
                     ))}
@@ -32,8 +32,8 @@ export default function AboutPage() {
                     Step into my world
                 </h2>
                 <p className={"pt-[16px] xl:pt-[48px]" +
-                    " font-semibold leading-[1] text-[1.75em] md:text-[2.5em] xl:text-[3.5em] xl:tracking-[-0.06em]"}>
-                    I’m Quang Nguyễn ( @quangngx), a designer and creative developer with 4 years of turning big ideas
+                    " font-semibold leading-[1] text-[1.75em] md:text-[2.5em] xl:text-[3.5em] xl:tracking-[-0.075em]"}>
+                    I’m Quang Nguyễn (@quangngx), a designer and creative developer with 4 years of turning big ideas
                     into things that actually look and work great. From designs that catch eyes to interactions that
                     feel just right, I make sure every project stands out—and doesn’t put anyone to sleep.
                 </p>
