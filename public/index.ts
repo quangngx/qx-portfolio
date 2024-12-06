@@ -48,6 +48,5 @@ export { default as img3 } from "./img3.png";
 export { default as img4 } from "./img4.png";
 export { default as img5 } from "./img5.png";
 
-export { default as arrow } from "./arrow-black.svg";
 export { default as hero } from "./hero.webp";
 export { default as handshake} from "./handshake.webp"
