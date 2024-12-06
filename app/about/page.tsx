@@ -32,7 +32,7 @@ export default function AboutPage() {
                     Step into my world
                 </h2>
                 <p className={"pt-[16px] xl:pt-[48px]" +
-                    " font-semibold leading-[1] text-[1.75em] md:text-[2.5em] xl:text-[3.5em] xl:tracking-[-0.075em]"}>
+                    " font-semibold leading-[1] tracking-tight text-[1.75em] md:text-[2.5em] xl:text-[3.5em]"}>
                     I’m Quang Nguyễn (@quangngx), a designer and creative developer with 4 years of turning big ideas
                     into things that actually look and work great. From designs that catch eyes to interactions that
                     feel just right, I make sure every project stands out—and doesn’t put anyone to sleep.
