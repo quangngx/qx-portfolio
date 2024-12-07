@@ -71,7 +71,6 @@ body {
     display: grid;
     grid-template-columns: auto 1fr;
     justify-content: space-between;
-    gap: 1.2rem;
 }
 
 .embla__buttons {
@@ -87,14 +86,13 @@ body {
     appearance: none;
     background-color: transparent;
     touch-action: manipulation;
-    display: inline-flex;
     text-decoration: none;
     cursor: pointer;
     border: 0;
     padding: 0;
     margin: 0;
-    width: 3.6rem;
-    height: 3.6rem;
+    width: 3rem;
+    height: 3rem;
     z-index: 1;
     border-radius: 50%;
     color: var(--black);

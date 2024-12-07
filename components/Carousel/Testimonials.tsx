@@ -36,7 +36,7 @@ const Testtimonials = () => {
         <section className="max-w-[95%] mx-auto ">
             <div className={"flex justify-between items-center mb-[32px]"}>
                 <h2
-                    className="text-center uppercase font-semibold text-[1.1em]  md:text-[1.33em] xl:text-[1.5em] ">
+                    className="all-caps-paragraph-1-5em text-center ">
                     Testimonials
                 </h2>
                 <div className="embla__controls">

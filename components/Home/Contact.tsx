@@ -47,7 +47,7 @@ export default function Contact() {
                     {/* Text and Call-to-Action Section */}
                     <div className="flex flex-col sm:flex-row gap-[2em] xl:justify-evenly">
                         <div className="flex flex-col gap-[1em] sm:max-w-[45vw] basis-[50%]">
-                            <p className="font-switzer font-semibold tracking-[-.065em] text-[1.25em] xl:text-[1.66vw]">
+                            <p className="paragraph-1-5em">
                                 Let’s take your ideas from concept to reality. I’m ready when you are. Reach out and let’s create.
                             </p>
                             <Link
