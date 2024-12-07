@@ -43,7 +43,7 @@ export default function Hero() {
                                 <p className="text-[3em] font-anton tracking-[-.0475em] leading-[0.94] md:text-[3.5em] lg:text-[6vw] lg:font-medium">
                                     A Glimpse Into What Fuels My Vision & Inspires my Projects
                                 </p>
-                                <PrimaryButton title={"Discover More"} href={"/contact"}/>
+                                <PrimaryButton title={"Discover More"} href={"/about"}/>
                             </div>
                         </div>
                     </div>

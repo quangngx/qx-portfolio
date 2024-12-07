@@ -12,8 +12,8 @@ export default function AboutPage() {
                     <p className="md:basis-[47%] lg:basis-[50%] uppercase text-[3em] font-anton tracking-[-0.0475em] leading-[0.94] md:text-[3.5em] lg:text-[6vw] ">
                         About my creative journey
                     </p>
-                    <p className="md:basis-[40%] xl:basis-[25%] uppercase font-switzer font-semibold leading-[1] tracking-[-.065em] text-[1.25em] xl:text-[1.66vw]">
-                        Blending Expert Craft and Creative Vision to Drive Lasting Business Success
+                    <p className="md:basis-[40%] xl:basis-[25%] all-caps-paragraph-1-5em">
+                        Mixing Sharp Skills and Big Ideas to Create Work That Sticks and Success That Lasts.
                     </p>
                 </div>
                 <div className={" grid grid-cols-3 gap-4"}>

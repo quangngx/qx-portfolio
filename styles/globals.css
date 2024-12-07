@@ -185,29 +185,35 @@ body {
         font-size: 1.1em;
     }
 
+
+    .paragraph-1-5em {
+        font-size: 1.125rem;
+    }
+
+    .hero-service-item {
+        border-bottom: var(--radius-strokes) solid var(--light-grey);
+        margin-bottom: .75em;
+        padding-bottom: .75em;
+    }
+
     .paragraph-3-5em {
         font-size: 1.75em;
-
-        .paragraph-1-5em {
-            font-size: 1.125rem;
-        }
-
-        .hero-service-item {
-            border-bottom: var(--radius-strokes) solid var(--light-grey);
-            margin-bottom: .75em;
-            padding-bottom: .75em;
-        }
-
-    }
-
-    @media screen and (max-width: 991px) {
-        .all-caps-paragraph-1-5em {
-            font-size: 1.25em;
-        }
-
-        .paragraph-1-5em {
-            font-size: 1.25em;
-        }
     }
 }
+
+
+@media screen and (max-width: 991px) {
+    .all-caps-paragraph-1-5em {
+        font-size: 1.25em;
+    }
+
+    .paragraph-1-5em {
+        font-size: 1.25em;
+    }
+
+    .paragraph-3-5em {
+        font-size: 2.5em;
+    }
+}
+
 
