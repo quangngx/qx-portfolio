@@ -32,7 +32,7 @@ export default function AboutPage() {
                     Step into my world
                 </h2>
                 <p className={"pt-[16px] xl:pt-[48px]" +
-                    " font-semibold leading-[1] tracking-tight text-[1.75em] md:text-[2.5em] xl:text-[3.5em]"}>
+                    " paragraph-3-5em"}>
                     I’m Quang Nguyễn (@quangngx), a designer and creative developer with 4 years of turning big ideas
                     into things that actually look and work great. From designs that catch eyes to interactions that
                     feel just right, I make sure every project stands out—and doesn’t put anyone to sleep.
@@ -44,7 +44,7 @@ export default function AboutPage() {
                     <h2 className="uppercase text-[2.5em] font-anton tracking-[-.0475em] leading-[0.94] xl:text-[4.5em] lg:font-medium">
                         Work Process
                     </h2>
-                    <p className={"py-[16px] font-semibold text-[1.125em] sm:text-[1.25em] lg:text-[1.5em] leading-[1.05] tracking-[-0.06em]"}>
+                    <p className={"py-[16px] paragraph-1-5em"}>
                         Take a look at my professional experience, showcasing the
                         key roles and skills that have shaped my creative journey.
                     </p>
