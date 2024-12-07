@@ -11,7 +11,7 @@ export default function Home() {
       <Projects />
       <Contact />
       <Testimonials />
-      <Carousel />
+      {/*<Carousel />*/}
       <Footer />
     </>
   );
