@@ -52,7 +52,7 @@ export const services = [
         id: 3,
         title: "Web Developer",
         href: "/portfolio",
-        description: "I build websites that actually work—no spinning wheels, no random glitches, just smooth, functional awesomeness. Need a responsive design? Done. Backend magic? Got it. I basically take your ideas and turn them into a website that won’t break when someone clicks too fast."
+        description: "I build websites that don’t just work—they impress. From responsive designs in Webflow to fully custom builds with the latest frameworks, I create fast, reliable, and scalable websites tailored to your needs. Whether it’s a sleek portfolio or a robust platform, I make sure your site looks stunning, runs smoothly, and handles anything users throw at it."
     },
 ];
 
