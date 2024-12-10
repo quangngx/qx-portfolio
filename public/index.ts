@@ -39,7 +39,8 @@ export { default as locomotive} from "./locomotive.png"
 export { default as officestudio} from "./officestudio.png"
 export { default as silencio} from "./silencio.png"
 
-export { default as qphoto} from "./quangngx.jpg"
+export { default as qphoto} from "./quangngx1.jpg"
 export { default as qphoto2} from "./quangngx2.jpg"
 export { default as qphoto3} from "./quangngx3.jpg"
+export { default as qphoto4} from "./quangngx4.jpg"
 

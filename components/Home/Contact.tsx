@@ -6,6 +6,7 @@ import signature from "../../public/signature.svg";
 import Link from "next/link";
 import { useRef } from "react";
 import { motion, useInView } from "motion/react";
+import {qphoto4} from "@/public";
 
 export default function Contact() {
     const ref = useRef(null);
@@ -16,7 +17,7 @@ export default function Contact() {
             <div className="flex flex-col xl:flex-row xl:gap-2">
                 {/* Left Image Section */}
                 <div className="hidden xl:block xl:flex-1">
-                    <Image alt="quang working at coffee" src={contactImage} />
+                    <Image alt="quangngx" src={qphoto4} />
                 </div>
 
                 {/* Right Content Section */}
