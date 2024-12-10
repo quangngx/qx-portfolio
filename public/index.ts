@@ -1,22 +1,5 @@
-export { default as chatgpt } from "./chatgpt.svg";
-export { default as css3 } from "./css3.svg";
-export { default as docker } from "./docker.svg";
-export { default as figma } from "./figma.svg";
-export { default as html } from "./html5.svg";
-export { default as mongodb } from "./mongodb.svg";
+
 export { default as next } from "./next-js.svg";
-export { default as node } from "./node-js.svg";
-export { default as prisma } from "./prisma-orm.svg";
-export { default as python } from "./python.svg";
-export { default as rhf } from "./reacthookform.svg";
-export { default as react_query } from "./reactquery.svg";
-export { default as redux } from "./redux.svg";
-export { default as js } from "./square-js.svg";
-export { default as tailwind } from "./tailwind-css.svg";
-export { default as trpc } from "./trpc.svg";
-export { default as typescript } from "./typescript.svg";
-export { default as code } from "./visual-studio.svg";
-export { default as zod } from "./zod.svg";
 
 export { default as flow } from "./flow.png";
 export { default as frame } from "./frame.png";
@@ -55,3 +38,8 @@ export { default as c2montreal} from "./c2montreal.png"
 export { default as locomotive} from "./locomotive.png"
 export { default as officestudio} from "./officestudio.png"
 export { default as silencio} from "./silencio.png"
+
+export { default as qphoto} from "./q-photo-1.jpg"
+export { default as qphoto2} from "./quangngx.jpg"
+export { default as qphoto3} from "./quangngx-3.jpg"
+

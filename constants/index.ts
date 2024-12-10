@@ -11,9 +11,9 @@ import {
     avatar6,
     avatar7,
     avatar8,
-    avatar9, c2montreal,
+    avatar9,
     flow,
-    github, inglewood, locomotive, officestudio, silencio,
+    github, inglewood, qphoto, qphoto2, qphoto3,
 } from "@/public";
 
 
@@ -57,89 +57,83 @@ export const services = [
     },
 ];
 
+export const aboutPhotos = [
+    {
+        id: 1,
+        src: qphoto,
+        att: "quangngx"
+    },
+    {
+        id: 2,
+        src: qphoto2,
+        att: "quangngx"
+    },
+    {
+        id: 3,
+        src: qphoto3,
+        att: "quangngx"
+    }
+]
+
 export const projectsGallery = [
     {
         id: 0,
         title: "Ark",
         src: ark,
-        color: "#FF6868",
+        color: "#F2E3DB",
         href: "https://ark-medical.jp/",
+        time: "2024",
+        role: "Design & Development"
     },
     {
         id: 1,
         title: "inglewood",
         src: inglewood,
-        color: "#FFBB64",
+        color: "#F0F3FF",
         href: "https://https://inglewood.co.jp/",
+        time: "2024",
+        role: "Design & Development"
     },
     {
         id: 2,
-        title: "Github - Clone",
+        title: "Kumology",
         src: github,
         color: "#0C1015",
-        href: "https://github-landing-page-nu.vercel.app/",
-    },
-    {
-        id: 3,
-        title: "Flow Party - Clone",
-        src: flow,
-        color: "#B3EB16"
-    }
-]
-
-
-export const projects = [
-    {
-        id: 1,
-        title: "Ark",
-        img: ark,
-        color: "#024CAA",
-        href: "https://ark-medical.jp/",
-    },
-    {
-        id: 11,
-        title: "inglewood",
-        img: inglewood,
-        color: "#0068b7",
-        href: "https://inglewood.co.jp/",
-    },
-    // {
-    //     id: 2,
-    //     title: "Ochi",
-    //     img: ochi,
-    //     color: "#cdea68",
-    //     href: "https://ochi-website-clone.vercel.app/",
-    // },
-    {
-        id: 3,
-        title: "Github",
-        img: github,
-        color: "#0C1015",
-        href: "https://github-landing-page-nu.vercel.app/",
+        href: null,
+        time: "2024",
+        role: "UI Design",
+        description: ""
     },
     {
         id: 4,
-        title: "Flow Party",
-        img: flow,
-        color: "#B3EB16",
-        href: "https://flowparty-website-clone-by-devwithzain.vercel.app/",
+        title: "Line MINI App",
+        src: github,
+        color: "#0C1015",
+        href: null,
+        time: "2024",
+        role: "UI Design",
+        description: ""
     },
-    // {
-    //     id: 5,
-    //     title: "Metaverse",
-    //     img: metaverse,
-    //     color: "#1A232E",
-    //     href: "https://metaverse-landings-page.vercel.app/",
-    // },
-    // {
-    //     id: 6,
-    //     title: "LightSass",
-    //     img: lightsass,
-    //     color: "#0D1EA2",
-    //     href: "https://light-sass-landing-page-devwithzain.vercel.app/",
-    // },
+    {
+        id: 3,
+        title: "Flow Party",
+        src: flow,
+        color: "#B3EB16",
+        href: "/",
+        time: "2024",
+        role: "Development"
+    },
+    {
+        id: 3,
+        title: "VDONE",
+        src: flow,
+        color: "#B3EB16",
+        href: "/",
+        time: "2023",
+        role: "Mobile Development"
+    },
+]
 
-];
 
 export const testimonials = [
     {
