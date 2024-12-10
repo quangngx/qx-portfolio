@@ -41,19 +41,19 @@ export const services = [
         id: 1,
         title: "Creative Developer",
         href: "/portfolio",
-        description: "I mix creativity and code to make digital stuff that people actually want to interact with. Cool animations, slick transitions, and those little touches that make people say, “Whoa, that’s neat!” If it’s online and looks fancy, there’s a good chance I can make it happen."
+        description: "I blend creativity and code to build digital experiences people love. Slick animations, smooth transitions—if it looks fancy online, I’ve probably built it."
     },
     {
         id: 2,
         title: "UI/UX Designer",
         href: "/portfolio",
-        description: "I design experiences that make users go, “Wow, that’s nice!” and not “Ugh, how do I close this?” From sketching wireframes to testing prototypes, I make sure your app or website feels like second nature to anyone who uses it. Think of me as the person who keeps your users from rage-quitting."
+        description: "I design experiences that make users say, 'Wow!' and not 'How do I close this?' Simple, intuitive, and frustration-free."
     },
     {
         id: 3,
         title: "Web Developer",
         href: "/portfolio",
-        description: "I build websites that don’t just work—they impress. From responsive designs in Webflow to fully custom builds with the latest frameworks, I create fast, reliable, and scalable websites tailored to your needs. Whether it’s a sleek portfolio or a robust platform, I make sure your site looks stunning, runs smoothly, and handles anything users throw at it."
+        description: "I create websites that look amazing and work flawlessly. From Webflow to custom frameworks, your site is in good hands."
     },
 ];
 
