@@ -29,6 +29,7 @@
     /*margin: 0px;*/
     /*font-weight: 400;*/
     transition: all 0.4s;
+    text-transform: uppercase;
 }
 
 .project p{
