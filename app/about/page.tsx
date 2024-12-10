@@ -1,7 +1,8 @@
 "use client"
 import Navbar from "@/components/Utilities/NavBar";
 import {Footer, Services, Testimonials} from "@/components";
-import {services} from "@/constants";
+import {aboutPhotos, services} from "@/constants";
+import Image from "next/image";
 
 export default function AboutPage() {
     return (
@@ -17,13 +18,14 @@ export default function AboutPage() {
                     </p>
                 </div>
                 <div className={" grid grid-cols-3 gap-4"}>
-                    {services.map((item) => (
-                        <div key={item.id}
-                             className={"bg-[--light-grey] h-[30vw] flex justify-center items-center"}>
-                            <div className={"text-[1.5em] font-semibold font-switzer uppercase"}>
-                                {item.id}
-                            </div>
-                        </div>
+                    {aboutPhotos.map((item) => (
+                        // <div key={item.id}
+                        //      className={"bg-[--light-grey] h-[30vw] flex justify-center items-center"}>
+                        //     <div className={"text-[1.5em] font-semibold font-switzer uppercase"}>
+                        //         {item.id}
+                        //     </div>
+                        // </div>
+                        <Image key={item.id} src={item.src} alt={item.att}/>
                     ))}
                 </div>
             </section>

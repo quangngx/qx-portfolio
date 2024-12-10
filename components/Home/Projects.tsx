@@ -23,9 +23,14 @@ export default function Projects() {
                     My Recent Work
                 </h2>
                 <div className={"mt-[2rem]"}>
-                    {projectsGallery.map((project, index) => (
+                    {projectsGallery.slice(0, 4).map((project, index) => (
                         <div key={index}>
-                            <ProjectGalleryItem index={index} title={project.title} setModal={setModal} key={index}/>
+                            <ProjectGalleryItem
+                                index={index}
+                                title={project.title}
+                                role={project.role}
+                                time={project.time}
+                                setModal={setModal} key={index}/>
                             <Modal modal={modal} projects={projectsGallery}/>
                         </div>
                     ))}

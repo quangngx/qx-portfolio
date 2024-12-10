@@ -26,7 +26,11 @@ export default function ProjectsPage() {
                 <div className={"mt-[2rem]"}>
                     {projectsGallery.map((project, index) => (
                         <div key={index}>
-                            <ProjectGalleryItem index={index} title={project.title} setModal={setModal} key={index}/>
+                            <ProjectGalleryItem index={index} title={project.title}
+                                                setModal={setModal}
+                                                key={index}
+                                                role={project.role}
+                                                time={project.time}/>
                             <Modal modal={modal} projects={projectsGallery}/>
                         </div>
                     ))}
