@@ -1,7 +1,7 @@
 import {ProjectGalleryItem} from "@/components/Utilities/project";
 import {useState} from "react";
-import {projectsGallery} from "@/components/Home/ProjectsGallery";
 import {Modal} from "@/components/Utilities/modal";
+import {projectsGallery} from "@/constants";
 
 
 export default function Projects() {
@@ -18,13 +18,18 @@ export default function Projects() {
             {/*        ))}*/}
             {/*    </div>*/}
             {/*</section>*/}
-            <section>
-                {projectsGallery.map((project, index) => (
-                    <div key={index}>
-                        <ProjectGalleryItem index={index} title={project.title} setModal={setModal} key={index}/>
-                        <Modal modal={modal} projects={projectsGallery}/>
-                    </div>
-                ))}
+            <section className={"max-w-[95%] mx-auto uppercase pt-[3em] md:pt-[5em] "}>
+                <h2 className="font-anton text-[2.5em] xl:text-[4.5em] tracking-[-.04em] leading-[0.95] ">
+                    My Recent Work
+                </h2>
+                <div className={"mt-[2rem]"}>
+                    {projectsGallery.map((project, index) => (
+                        <div key={index}>
+                            <ProjectGalleryItem index={index} title={project.title} setModal={setModal} key={index}/>
+                            <Modal modal={modal} projects={projectsGallery}/>
+                        </div>
+                    ))}
+                </div>
             </section>
         </div>
     );

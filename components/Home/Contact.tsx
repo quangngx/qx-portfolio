@@ -51,7 +51,7 @@ export default function Contact() {
                                 Let’s take your ideas from concept to reality. I’m ready when you are. Reach out and let’s create.
                             </p>
                             <Link
-                                href="/public"
+                                href="/contact"
                                 className="w-fit font-switzer rounded-full border-[2.5px] border-[--orange] font-medium text-[1.1em] text-[--orange] tracking-[-.08em] px-[.4em] py-[.2em] md:border-[3px] md:text-[1.33em] xl:border-[3px] xl:font-semibold xl:text-[1.5em]"
                             >
                                 Reach out now!

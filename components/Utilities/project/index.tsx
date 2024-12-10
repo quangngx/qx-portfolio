@@ -14,7 +14,7 @@ export const ProjectGalleryItem = ({index, title, setModal}: ProjectsProps) => {
             onMouseLeave={() => setModal({active: false, index})}
             className={styles.project}
         >
-            <h2>{title}</h2>
+            <h2 className={"paragraph-3-5em"}>{title}</h2>
             <p>Design & Development</p>
         </div>
     );
