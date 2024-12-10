@@ -1,18 +1,32 @@
-import {projects} from "@/constants";
-import {ProjectItem} from "@/animations";
+import {ProjectGalleryItem} from "@/components/Utilities/project";
+import {useState} from "react";
+import {projectsGallery} from "@/components/Home/ProjectsGallery";
+import {Modal} from "@/components/Utilities/modal";
+
 
 export default function Projects() {
+    const [modal, setModal] = useState({active: false, index: 0})
     return (
-        <section className="max-w-[95%] mx-auto uppercase py-[3em] md:py-[5em] ">
-            <h2 className="font-anton text-[2.5em] xl:text-[4.5em] tracking-[-.04em] leading-[0.95] ">
-                My Recent Work
-            </h2>
-            <div className={"grid grid-cols-2 gap-4 pt-[2em] xl:pt-[3vw]"}>
-                {projects.map((item) => (
-                    <ProjectItem key={item.id.toString()} title={item.title} href={item.href} img={item.img}/>
+        <div>
+            {/*<section className="max-w-[95%] mx-auto uppercase py-[3em] md:py-[5em] ">*/}
+            {/*    <h2 className="font-anton text-[2.5em] xl:text-[4.5em] tracking-[-.04em] leading-[0.95] ">*/}
+            {/*        My Recent Work*/}
+            {/*    </h2>*/}
+            {/*    <div className={"grid grid-cols-2 gap-4 pt-[2em] xl:pt-[3vw]"}>*/}
+            {/*        {projects.map((item) => (*/}
+            {/*            <ProjectItem key={item.id.toString()} title={item.title} href={item.href} img={item.img}/>*/}
+            {/*        ))}*/}
+            {/*    </div>*/}
+            {/*</section>*/}
+            <section>
+                {projectsGallery.map((project, index) => (
+                    <div key={index}>
+                        <ProjectGalleryItem index={index} title={project.title} setModal={setModal} key={index}/>
+                        <Modal modal={modal} projects={projectsGallery}/>
+                    </div>
                 ))}
-            </div>
-        </section>
+            </section>
+        </div>
     );
 }
 

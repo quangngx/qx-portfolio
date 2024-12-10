@@ -50,3 +50,8 @@ export { default as img5 } from "./img5.png";
 
 export { default as hero } from "./hero.webp";
 export { default as handshake} from "./handshake.webp"
+
+export { default as c2montreal} from "./c2montreal.png"
+export { default as locomotive} from "./locomotive.png"
+export { default as officestudio} from "./officestudio.png"
+export { default as silencio} from "./silencio.png"

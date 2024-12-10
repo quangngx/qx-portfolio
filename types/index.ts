@@ -11,5 +11,5 @@ export type TprimaryButtonProps = {
 export type TtestimonialItemProps = {
     content: string;
     author: string;
-    position:string;
+    position: string;
 }

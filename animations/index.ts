@@ -1,2 +1,2 @@
-export { default as TextHover } from './TextHover';
-export { ProjectItem } from './ProjectItem';
+export {default as TextHover} from './TextHover';
+export {ProjectItem} from './ProjectItem';

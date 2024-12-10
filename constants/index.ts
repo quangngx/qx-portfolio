@@ -11,10 +11,11 @@ import {
     avatar6,
     avatar7,
     avatar8,
-    avatar9,
+    avatar9, c2montreal,
     flow,
-    github, inglewood,
+    github, inglewood, locomotive, officestudio, silencio,
 } from "@/public";
+
 
 // Navbar
 export const navbarItems = [
@@ -55,6 +56,33 @@ export const services = [
         description: "I build websites that don’t just work—they impress. From responsive designs in Webflow to fully custom builds with the latest frameworks, I create fast, reliable, and scalable websites tailored to your needs. Whether it’s a sleek portfolio or a robust platform, I make sure your site looks stunning, runs smoothly, and handles anything users throw at it."
     },
 ];
+
+export const projectsGallery = [
+    {
+        id: 0,
+        title: "C2 Montreal",
+        src: c2montreal,
+        color: "#000000"
+    },
+    {
+        id: 1,
+        title: "Office Studio",
+        src: officestudio,
+        color: "#8C8C8C"
+    },
+    {
+        id: 2,
+        title: "Locomotive",
+        src: locomotive,
+        color: "#EFE8D3"
+    },
+    {
+        id: 3,
+        title: "Silencio",
+        src: silencio,
+        color: "#706D63"
+    }
+]
 
 
 export const projects = [
