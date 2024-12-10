@@ -15,7 +15,7 @@ interface ModalProps {
 interface Project {
     id: number,
     title: string,
-    src: StaticImageData,
+    src: string | StaticImageData,
     color: string
 }
 
@@ -72,7 +72,7 @@ export const Modal = ({modal, projects} :ModalProps) => {
                                 key={`modal_${idx}`}
                             >
                                 <Image
-                                    src={`/images/${src}`}
+                                    src={src}
                                     width={300}
                                     height={0}
                                     alt="image"

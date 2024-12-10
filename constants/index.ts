@@ -60,15 +60,16 @@ export const services = [
 export const projectsGallery = [
     {
         id: 0,
-        title: "C2 Montreal",
-        src: c2montreal,
-        color: "#000000"
+        title: "Ark",
+        src: ark,
+        color: "#edede9",
+        href: "https://ark-medical.jp/",
     },
     {
         id: 1,
-        title: "Office Studio",
-        src: officestudio,
-        color: "#8C8C8C"
+        title: "inglewood",
+        src: inglewood,
+        color: "#22333b"
     },
     {
         id: 2,
