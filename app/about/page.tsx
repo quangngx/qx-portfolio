@@ -1,7 +1,7 @@
 "use client"
 import Navbar from "@/components/Utilities/NavBar";
 import {Footer, Services, Testimonials} from "@/components";
-import {aboutPhotos, services} from "@/constants";
+import {aboutPhotos} from "@/constants";
 import Image from "next/image";
 
 export default function AboutPage() {

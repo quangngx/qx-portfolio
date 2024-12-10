@@ -48,7 +48,7 @@ export const Services = () => {
                                         opacity: 0
                                     }}
                                 >
-                                    <Image src={contactImage} alt={item.title}/>
+                                    <Image src={item.src} alt={"quangngx"}/>
                                 </motion.div>
 
                             </div>
@@ -82,7 +82,7 @@ export const Services = () => {
                 {services.map((item) => (
                     <div key={item.id} className={"lg:hidden"}>
                         <div className={"relative"}>
-                            <Image src={contactImage} alt={item.title}/>
+                            <Image src={item.src} width={300} height={300} alt={item.title}/>
                             <div className={"absolute z-40  bottom-0 p-2 bg-[--white]"}>
                                 <p className={"all-caps-paragraph-1-5em"}>{item.title}</p>
                             </div>

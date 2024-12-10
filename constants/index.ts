@@ -39,18 +39,21 @@ export const navbarItems = [
 export const services = [
     {
         id: 1,
+        src: qphoto,
         title: "Creative Developer",
         href: "/portfolio",
         description: "I blend creativity and code to build digital experiences people love. Slick animations, smooth transitions—if it looks fancy online, I’ve probably built it."
     },
     {
         id: 2,
+        src: qphoto,
         title: "UI/UX Designer",
         href: "/portfolio",
         description: "I design experiences that make users say, 'Wow!' and not 'How do I close this?' Simple, intuitive, and frustration-free."
     },
     {
         id: 3,
+        src: qphoto,
         title: "Web Developer",
         href: "/portfolio",
         description: "I create websites that look amazing and work flawlessly. From Webflow to custom frameworks, your site is in good hands."
