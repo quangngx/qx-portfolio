@@ -62,26 +62,28 @@ export const projectsGallery = [
         id: 0,
         title: "Ark",
         src: ark,
-        color: "#edede9",
+        color: "#FF6868",
         href: "https://ark-medical.jp/",
     },
     {
         id: 1,
         title: "inglewood",
         src: inglewood,
-        color: "#22333b"
+        color: "#FFBB64",
+        href: "https://https://inglewood.co.jp/",
     },
     {
         id: 2,
-        title: "Locomotive",
-        src: locomotive,
-        color: "#EFE8D3"
+        title: "Github - Clone",
+        src: github,
+        color: "#0C1015",
+        href: "https://github-landing-page-nu.vercel.app/",
     },
     {
         id: 3,
-        title: "Silencio",
-        src: silencio,
-        color: "#706D63"
+        title: "Flow Party - Clone",
+        src: flow,
+        color: "#B3EB16"
     }
 ]
 
@@ -91,7 +93,7 @@ export const projects = [
         id: 1,
         title: "Ark",
         img: ark,
-        color: "#2659DB",
+        color: "#024CAA",
         href: "https://ark-medical.jp/",
     },
     {

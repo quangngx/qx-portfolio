@@ -1,11 +1,14 @@
 "use client"
 import Navbar from "@/components/Utilities/NavBar";
 import Testimonials from "@/components/Carousel/Testimonials";
-import {projects} from "@/constants";
-import {ProjectItem} from "@/animations";
+import {projectsGallery} from "@/constants";
 import {Footer} from "@/components";
+import {ProjectGalleryItem} from "@/components/Utilities/project";
+import {Modal} from "@/components/Utilities/modal";
+import {useState} from "react";
 
 export default function ProjectsPage() {
+    const [modal, setModal] = useState({active: false, index: 0})
     return (
         <>
             <Navbar/>
@@ -20,9 +23,12 @@ export default function ProjectsPage() {
                         Platforms
                     </p>
                 </div>
-                <div className={"grid grid-cols-2 gap-4 py-[2em] xl:py-[3vw]"}>
-                    {projects.map((item) => (
-                        <ProjectItem key={item.id} title={item.title} href={item.href} img={item.img}/>
+                <div className={"mt-[2rem]"}>
+                    {projectsGallery.map((project, index) => (
+                        <div key={index}>
+                            <ProjectGalleryItem index={index} title={project.title} setModal={setModal} key={index}/>
+                            <Modal modal={modal} projects={projectsGallery}/>
+                        </div>
                     ))}
                 </div>
             </section>
