@@ -1,7 +1,7 @@
 import {
-    ark,
+    ark, comingsoon,
     flow,
-    github, inglewood, kumology, lavie, qphoto, qphoto2, qphoto3,
+    github, inglewood, kumology, lavie, qphoto, qphoto2, qphoto3, vdone,
 } from "@/public";
 
 
@@ -70,26 +70,26 @@ export const projectsGallery = [
     {
         id: 1,
         title: "GoGetters",
-        src: lavie,
-        color: "#F0F3FF",
+        src: comingsoon,
+        color: "#2d2e30",
         href: "https://www.laviewater.com/ngayyen1010",
         time: "2024",
         role: "Design and Development"
     },
     {
-        id: 1,
+        id: 2,
         title: "Lavie VN",
         src: lavie,
-        color: "#F0F3FF",
+        color: "#c2e4ba",
         href: "https://www.laviewater.com/ngayyen1010",
         time: "2024",
         role: "UI Design"
     },
     {
-        id: 0,
+        id: 3,
         title: "Ark JP",
         src: ark,
-        color: "#F2E3DB",
+        color: "#e7e9e7",
         href: "https://ark-medical.jp/",
         time: "2024",
         role: "Design & Development"
@@ -98,27 +98,27 @@ export const projectsGallery = [
         id: 4,
         title: "Line Mini App JP ",
         src: github,
-        color: "#0C1015",
-        href: null,
+        color: "#a7c3e2",
+        href: "/",
         time: "2024",
         role: "UI Design",
         description: ""
     },
     {
-        id: 1,
+        id: 5,
         title: "inglewood JP",
         src: inglewood,
-        color: "#F0F3FF",
+        color: "#b1bfd1",
         href: "https://https://inglewood.co.jp/",
         time: "2024",
         role: "Design & Development"
     },
     {
-        id: 2,
+        id: 6,
         title: "Kumology JP",
         src: kumology,
         color: "#0C1015",
-        href: null,
+        href: "https://www.kumotive.com/",
         time: "2024",
         role: "UI Design",
         description: ""
@@ -134,38 +134,38 @@ export const projectsGallery = [
     //     role: "Development"
     // },
     {
-        id: 3,
+        id: 7,
         title: "VDONE VN",
-        src: flow,
-        color: "#B3EB16",
-        href: "/",
+        src: vdone,
+        color: "#a7c3e2",
+        href: "https://apps.apple.com/vn/app/vdone/id1673506553",
         time: "2023",
         role: "Flutter Development"
     },
     {
-        id: 3,
+        id: 8,
         title: "Seedify VN",
         src: flow,
-        color: "#B3EB16",
-        href: "/",
+        color: "#a7c3e2",
+        href: "https://baolamdong.vn/ban-tre/202312/hieu-ich-phan-mem-quan-ly-phong-nuoi-cay-mo-seedify-bi-olab-e09296a/",
         time: "2021",
         role: "Management and Development"
     },
     {
-        id: 3,
+        id: 9,
         title: "DLU LMS VN",
         src: flow,
-        color: "#B3EB16",
-        href: "/",
+        color: "#a7c3e2",
+        href: "https://lms.dlu.edu.vn/",
         time: "2021",
         role: "Moodle"
     },
     {
-        id: 3,
-        title: "DLU Quiz VN",
+        id: 10,
+        title: "ICT Center App VN",
         src: flow,
-        color: "#B3EB16",
-        href: "/",
+        color: "#a7c3e2",
+        href: "https://itc.dlu.edu.vn/cac-khoa-hoc/",
         time: "2021",
         role: "Flutter Development"
     },

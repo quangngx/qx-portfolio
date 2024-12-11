@@ -30,6 +30,7 @@ export default function ProjectsPage() {
                                                 setModal={setModal}
                                                 key={index}
                                                 role={project.role}
+                                                href={project.href}
                                                 time={project.time}/>
                             <Modal modal={modal} projects={projectsGallery}/>
                         </div>

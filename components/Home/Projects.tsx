@@ -30,8 +30,9 @@ export default function Projects() {
                                 title={project.title}
                                 role={project.role}
                                 time={project.time}
+                                href={project.href}
                                 setModal={setModal} key={index}/>
-                            <Modal modal={modal} projects={projectsGallery}/>
+                            <Modal modal={modal} projects={projectsGallery.slice(1, 6)}/>
                         </div>
                     ))}
                 </div>
