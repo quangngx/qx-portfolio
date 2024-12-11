@@ -9,10 +9,12 @@ export default function Projects() {
     const [modal, setModal] = useState({active: false, index: 0})
     return (
         <div>
-            <section className={"max-w-[95%] mx-auto uppercase pt-[3em] md:pt-[5em] "}>
-                <h2 className="font-anton text-[2.5em] xl:text-[4.5em] tracking-[-.04em] leading-[0.95] ">
-                    My Recent Work
-                </h2>
+            <section className={"relative max-w-[95%] mx-auto uppercase pt-[3em] md:pt-[5em] "}>
+                <div className={"flex justify-between items-end "}>
+                    <h2 className="font-anton text-[2.5em] xl:text-[4.5em] tracking-[-.04em] leading-[0.95] ">
+                        My Recent Work
+                    </h2>
+                </div>
                 <div className={"mt-[2rem]"}>
                     {projectsGallery.slice(1, 6).map((project, index) => (
                         <div key={index}>

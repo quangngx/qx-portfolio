@@ -40,7 +40,7 @@ export default function Hero() {
                     <div className=" lg:absolute">
                         <div className="block lg:max-w-[95%] mx-auto">
                             <div className="lg:max-w-[50%] lg:text-[--white] flex flex-col gap-[1em]">
-                                <p className="text-[3em] font-anton tracking-[-.0475em] leading-[0.94] md:text-[3.5em] lg:text-[6vw] lg:font-medium">
+                                <p className="heading text-[3em] font-anton tracking-[-.0475em] leading-[0.94] md:text-[3.5em] lg:text-[6vw] lg:font-medium">
                                     A Glimpse Into What Fuels My Vision & Inspires my Projects
                                 </p>
                                 <PrimaryButton title={"Discover More"} href={"/about"}/>
