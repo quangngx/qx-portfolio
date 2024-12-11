@@ -23,7 +23,7 @@ export default function Projects() {
                     My Recent Work
                 </h2>
                 <div className={"mt-[2rem]"}>
-                    {projectsGallery.slice(0, 4).map((project, index) => (
+                    {projectsGallery.slice(1, 6).map((project, index) => (
                         <div key={index}>
                             <ProjectGalleryItem
                                 index={index}
