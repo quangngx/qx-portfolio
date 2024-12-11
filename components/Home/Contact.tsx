@@ -12,7 +12,7 @@ export default function Contact() {
     const isInView = useInView(ref, { amount: "all", once: true });
 
     return (
-        <section className="max-w-[95%] mx-auto leading-[1] uppercase py-[3em] md:py-[5em]">
+        <section className="max-w-[95%] mx-auto leading-[1] uppercase py-[3em]">
             <div className="flex flex-col xl:flex-row xl:gap-2">
                 {/* Left Image Section */}
                 <div className="hidden xl:block xl:flex-1">

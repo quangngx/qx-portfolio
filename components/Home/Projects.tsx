@@ -2,22 +2,13 @@ import {ProjectGalleryItem} from "@/components/Utilities/project";
 import {useState} from "react";
 import {Modal} from "@/components/Utilities/modal";
 import {projectsGallery} from "@/constants";
+import {PrimaryButton} from "@/components";
 
 
 export default function Projects() {
     const [modal, setModal] = useState({active: false, index: 0})
     return (
         <div>
-            {/*<section className="max-w-[95%] mx-auto uppercase py-[3em] md:py-[5em] ">*/}
-            {/*    <h2 className="font-anton text-[2.5em] xl:text-[4.5em] tracking-[-.04em] leading-[0.95] ">*/}
-            {/*        My Recent Work*/}
-            {/*    </h2>*/}
-            {/*    <div className={"grid grid-cols-2 gap-4 pt-[2em] xl:pt-[3vw]"}>*/}
-            {/*        {projects.map((item) => (*/}
-            {/*            <ProjectItem key={item.id.toString()} title={item.title} href={item.href} img={item.img}/>*/}
-            {/*        ))}*/}
-            {/*    </div>*/}
-            {/*</section>*/}
             <section className={"max-w-[95%] mx-auto uppercase pt-[3em] md:pt-[5em] "}>
                 <h2 className="font-anton text-[2.5em] xl:text-[4.5em] tracking-[-.04em] leading-[0.95] ">
                     My Recent Work
@@ -35,6 +26,9 @@ export default function Projects() {
                             <Modal modal={modal} projects={projectsGallery.slice(1, 6)}/>
                         </div>
                     ))}
+                </div>
+                <div className={"flex justify-end pt-[2em]"}>
+                    <PrimaryButton title={"More"} href={"/portfolio"}/>
                 </div>
             </section>
         </div>
