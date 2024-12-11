@@ -10,8 +10,15 @@ export const metadata: Metadata = {
         title: "@quangngx - Creative Developer",
         description: "Quang Nguyễn (@quangngx) - Web Designer - Creative developer.",
         images: ["ogp.png"],
-        
-    }
+        type: "website",
+    },
+    twitter: {
+        title: "@quangngx - Creative Developer",
+        description: "Quang Nguyễn (@quangngx) - Web Designer - Creative developer.",
+        images: ["ogp.png"],
+        card: "summary_large_image"
+    },
+
 };
 
 export default function RootLayout({children,}: Readonly<{ children: React.ReactNode; }>) {
