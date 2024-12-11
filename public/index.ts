@@ -24,5 +24,5 @@ export { default as qphoto2} from "./quangngx2.jpg"
 export { default as qphoto3} from "./quangngx3.jpg"
 export { default as qphoto4} from "./quangngx4.jpg"
 
-export { default as maskMouse} from "./mask.svg"
+export { default as ogp} from "./ogp.png"
 
