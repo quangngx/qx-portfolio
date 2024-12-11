@@ -110,6 +110,8 @@ body {
     height: 35%;
 }
 
+
+
 .nav-overlay {
     display: none;
     width: 100%;
@@ -118,6 +120,10 @@ body {
     left: 0;
     right: 0;
     overflow: hidden;
+}
+
+.process-description {
+    border-top: 1px solid var(--light-grey);
 }
 
 .expanded-nav {
@@ -163,6 +169,15 @@ body {
     line-height: 1.05;
 }
 
+.all-caps-paragraph-2em {
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    font-family: Switzer Variable, Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1;
+}
+
 .paragraph-3-5em {
     letter-spacing: -.06em;
     font-size: 3.5em;
@@ -185,6 +200,9 @@ body {
         font-size: 1.1em;
     }
 
+    .all-caps-paragraph-2em {
+        font-size: 1.66em;
+    }
 
     .paragraph-1-5em {
         font-size: 1.125rem;
@@ -213,6 +231,10 @@ body {
 
     .paragraph-3-5em {
         font-size: 2.5em;
+    }
+
+    .all-caps-paragraph-2em {
+        font-size: 1.5em;
     }
 }
 

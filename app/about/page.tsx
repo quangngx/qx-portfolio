@@ -3,6 +3,7 @@ import Navbar from "@/components/Utilities/NavBar";
 import {Footer, Services, Testimonials} from "@/components";
 import {aboutPhotos} from "@/constants";
 import Image from "next/image";
+import {MyProcess} from "@/components/About/Process";
 
 export default function AboutPage() {
     return (
@@ -17,14 +18,8 @@ export default function AboutPage() {
                         Mixing Sharp Skills and Big Ideas to Create Work That Sticks and Success That Lasts.
                     </p>
                 </div>
-                <div className={" grid grid-cols-3 gap-4"}>
+                <div className={" grid grid-cols-3 gap-1 md:gap-4"}>
                     {aboutPhotos.map((item) => (
-                        // <div key={item.id}
-                        //      className={"bg-[--light-grey] h-[30vw] flex justify-center items-center"}>
-                        //     <div className={"text-[1.5em] font-semibold font-switzer uppercase"}>
-                        //         {item.id}
-                        //     </div>
-                        // </div>
                         <Image key={item.id} src={item.src} alt={item.att}/>
                     ))}
                 </div>
@@ -41,19 +36,12 @@ export default function AboutPage() {
                 </p>
             </section>
             <Services/>
-            <section className="relative max-w-[95%] mx-auto flex flex-col ">
-                <div className={""}>
-                    <h2 className="uppercase text-[2.5em] font-anton tracking-[-.0475em] leading-[0.94] xl:text-[4.5em] lg:font-medium">
-                        Work Process
-                    </h2>
-                    <p className={"py-[16px] paragraph-1-5em"}>
-                        Take a look at my professional experience, showcasing the
-                        key roles and skills that have shaped my creative journey.
-                    </p>
-                </div>
-            </section>
+            <MyProcess/>
             <Testimonials/>
             <Footer/>
         </div>
     );
 }
+
+
+

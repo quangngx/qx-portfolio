@@ -1,4 +1,4 @@
-export default function Hero() {
+export const  Hero = ()=> {
     return (
         <div>
             <p className="text-[3em] font-anton tracking-[-.0475em] leading-[0.94] md:text-[3.5em] lg:text-[6vw] lg:font-medium">

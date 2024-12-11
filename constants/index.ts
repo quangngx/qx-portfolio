@@ -159,7 +159,7 @@ export const projectsGallery = [
         color: "#a7c3e2",
         href: "https://lms.dlu.edu.vn/",
         time: "2021",
-        role: "Moodle"
+        role: "Development"
     },
     {
         id: 10,
@@ -170,6 +170,44 @@ export const projectsGallery = [
         time: "2021",
         role: "Flutter Development"
     },
+]
+
+export const myProcess = [
+    {
+        "id": 1,
+        "title": "Kickoff",
+        "description": "We start with a call or chat to discuss your needs, goals, and expectations. This ensures we’re aligned from the beginning."
+    },
+    {
+        "id": 2,
+        "title": "Research",
+        "description": "I gather insights about your target audience, industry, and competitors to craft a customized approach."
+    },
+    {
+        "id": 3,
+        "title": "Concept",
+        "description": "I develop initial ideas or drafts to outline the direction. Your feedback helps refine the approach."
+    },
+    {
+        "id": 4,
+        "title": "Execution",
+        "description": "I create the agreed deliverables, focusing on quality, detail, and deadlines."
+    },
+    {
+        "id": 5,
+        "title": "Review",
+        "description": "You review the work, and I make any necessary revisions to ensure it meets your expectations."
+    },
+    {
+        "id": 6,
+        "title": "Delivery",
+        "description": "I provide the final files or completed work, ensuring everything is organized and ready for use."
+    },
+    {
+        "id": 7,
+        "title": "Follow-Up",
+        "description": "After delivery, I’m available for minor tweaks or ongoing support to help you succeed."
+    }
 ]
 
 
