@@ -1,6 +1,5 @@
 import {motion} from "motion/react";
 import {services} from "@/constants";
-import contactImage from "@/public/contact-image.webp";
 import Image from "next/image";
 
 export const Services = () => {

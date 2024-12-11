@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import contactImage from "../../public/contact-image.webp";
 import logo from "../../public/quangngx.svg";
 import signature from "../../public/signature.svg";
 import Link from "next/link";
