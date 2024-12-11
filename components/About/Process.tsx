@@ -12,7 +12,7 @@ export const MyProcess = () => {
     };
 
     return (
-        <section className="relative max-w-[95%] mx-auto flex flex-col lg:flex-row lg:gap-4">
+        <section className="relative max-w-[95%] mx-auto flex flex-col lg:flex-row lg:gap-4 py-[2em]">
             {/* Left Section */}
             <div className="lg:basis-[40%]">
                 <h2 className="uppercase text-[2.5em] font-anton tracking-[-.0475em] leading-[0.94] xl:text-[4.5em] lg:font-medium">

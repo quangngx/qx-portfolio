@@ -10,7 +10,7 @@ import useEmblaCarousel from 'embla-carousel-react'
 import {testimonials} from "@/constants";
 import TestimonialItem from "@/components/Carousel/TestimonialItem";
 
-const Testtimonials = () => {
+const Testimonials = () => {
     const [emblaRef, emblaApi] = useEmblaCarousel({align: 'start', dragFree: true, loop: true}, [Autoplay()])
 
     const onNavButtonClick = useCallback((emblaApi: EmblaCarouselType) => {
@@ -33,7 +33,7 @@ const Testtimonials = () => {
     } = usePrevNextButtons(emblaApi, onNavButtonClick)
 
     return (
-        <section className="max-w-[95%] mx-auto ">
+        <section className="max-w-[95%] mx-auto py-[2em] ">
             <div className={"flex justify-between items-center mb-[32px]"}>
                 <h2
                     className="all-caps-paragraph-1-5em text-center ">
@@ -57,4 +57,4 @@ const Testtimonials = () => {
     )
 }
 
-export default Testtimonials
+export default Testimonials

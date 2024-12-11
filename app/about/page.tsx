@@ -4,6 +4,7 @@ import {Footer, Services, Testimonials} from "@/components";
 import {aboutPhotos} from "@/constants";
 import Image from "next/image";
 import {MyProcess} from "@/components/About/Process";
+import {Intro} from "@/components/About/Hero";
 
 export default function AboutPage() {
     return (
@@ -24,17 +25,7 @@ export default function AboutPage() {
                     ))}
                 </div>
             </section>
-            <section className={"relative max-w-[95%] mx-auto py-[3em] md:py-[4rem]"}>
-                <h2 className="uppercase text-[2.5em] xl:text-[4.5em] font-anton tracking-[-.0475em] leading-[1] lg:font-medium">
-                    Step into my world
-                </h2>
-                <p className={"pt-[16px] xl:pt-[48px]" +
-                    " paragraph-3-5em"}>
-                    I’m Quang Nguyễn (@quangngx), a designer and creative developer with 4 years of turning big ideas
-                    into things that actually look and work great. From designs that catch eyes to interactions that
-                    feel just right, I make sure every project stands out—and doesn’t put anyone to sleep.
-                </p>
-            </section>
+            <Intro/>
             <Services/>
             <MyProcess/>
             <Testimonials/>

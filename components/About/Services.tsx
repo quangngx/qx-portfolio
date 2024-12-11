@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const Services = () => {
     return (
-        <section className={"relative max-w-[95%] mx-auto py-[5em]"}>
+        <section className={"relative max-w-[95%] mx-auto py-[2em]"}>
             <h2 className="uppercase text-[2.5em] font-anton tracking-[-.0475em] leading-[0.94] xl:text-[4.5em] lg:font-medium">
                 What I do, my services
             </h2>
