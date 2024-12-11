@@ -3,10 +3,31 @@ import Navbar from "@/components/Utilities/NavBar";
 import {Footer} from "@/components";
 import Image from "next/image";
 import {handshake} from "@/public";
+import useMousePosition from "@/components/Utilities/mouse/Mouse";
+import {motion} from "motion/react";
+import React from "react";
 
 export default function ContactPage() {
+    const {x, y} = useMousePosition();
     return (
         <>
+            {/* Mouse Following Effect */}
+            <motion.div
+                className="pointer-events-none z-50"
+                style={{
+                    position: "fixed",
+                    width: `20px`,
+                    height: `20px`,
+                    borderRadius: "50%",
+                    backgroundColor: "black",
+                    transform: "translate(-50%, -50%)",
+                }}
+                animate={{
+                    x: x,
+                    y: y,
+                }}
+                transition={{type: "tween", ease: "backOut"}}
+            />
             <Navbar/>
             <section className={" max-w-[95%] mx-auto min-h-[90vh] pt-[15em] content-center"}>
                 <div className={"flex flex-col xl:flex-row gap-[3em] justify-center content-center"}>

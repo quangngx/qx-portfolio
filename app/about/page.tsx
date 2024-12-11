@@ -5,10 +5,31 @@ import {aboutPhotos} from "@/constants";
 import Image from "next/image";
 import {MyProcess} from "@/components/About/Process";
 import {Intro} from "@/components/About/Hero";
+import {motion} from "motion/react";
+import React from "react";
+import useMousePosition from "@/components/Utilities/mouse/Mouse"; // Ensure the hook is in your utils
 
 export default function AboutPage() {
+    const {x, y} = useMousePosition();
     return (
         <div>
+            {/* Mouse Following Effect */}
+            <motion.div
+                className="pointer-events-none z-50"
+                style={{
+                    position: "fixed",
+                    width: `20px`,
+                    height: `20px`,
+                    borderRadius: "50%",
+                    backgroundColor: "black",
+                    transform: "translate(-50%, -50%)",
+                }}
+                animate={{
+                    x: x,
+                    y: y,
+                }}
+                transition={{type: "tween", ease: "backOut"}}
+            />
             <Navbar/>
             <section className="max-w-[95%] mx-auto pt-[8em] lg:pt-[15vw] ">
                 <div className={"flex flex-col gap-4 md:flex-row justify-between md:items-end pb-[3em] md:pb-[5em]"}>

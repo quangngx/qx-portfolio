@@ -46,7 +46,7 @@ const Testimonials = () => {
                     </div>
                 </div>
             </div>
-            <div className="overflow-hidden pb-[48px] md:pb-[80px]" ref={emblaRef}>
+            <div className="overflow-hidden pb-[48px] md:pb-[1em]" ref={emblaRef}>
                 <div className="embla__container relative flex flex-row gap-2">
                     {testimonials.map((index) => (
                         <TestimonialItem key={index.id} author={index.name} content={index.content} position={''}/>

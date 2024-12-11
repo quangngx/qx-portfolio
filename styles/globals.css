@@ -33,6 +33,10 @@ body::-webkit-scrollbar {
     width: 0;
 }
 
+.mouse {
+    mix-blend-mode: difference;
+}
+
 body {
     color: var(--black);
     background: var(--white);
@@ -109,7 +113,6 @@ body {
     width: 35%;
     height: 35%;
 }
-
 
 
 .nav-overlay {

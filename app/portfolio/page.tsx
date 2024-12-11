@@ -5,12 +5,33 @@ import {projectsGallery} from "@/constants";
 import {Footer} from "@/components";
 import {ProjectGalleryItem} from "@/components/Utilities/project";
 import {Modal} from "@/components/Utilities/modal";
-import {useState} from "react";
+import React, {useState} from "react";
+import {motion} from "motion/react";
+import useMousePosition from "@/components/Utilities/mouse/Mouse"; // Ensure the hook is in your utils
 
 export default function ProjectsPage() {
     const [modal, setModal] = useState({active: false, index: 0})
+    const {x, y} = useMousePosition()
+
     return (
         <>
+            {/* Mouse Following Effect */}
+            <motion.div
+                className="pointer-events-none z-50"
+                style={{
+                    position: "fixed",
+                    width: `20px`,
+                    height: `20px`,
+                    borderRadius: "50%",
+                    backgroundColor: "black",
+                    transform: "translate(-50%, -50%)",
+                }}
+                animate={{
+                    x: x,
+                    y: y,
+                }}
+                transition={{type: "tween", ease: "backOut"}}
+            />
             <Navbar/>
             <section className={"max-w-[95%] mx-auto place-content-center pt-[8em] lg:pt-[15vw]"}>
                 <div className={"flex flex-col gap-[1vw] xl:max-w-[40%]"}>
