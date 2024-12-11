@@ -4,8 +4,6 @@ export { default as next } from "./next-js.svg";
 export { default as flow } from "./flow.png";
 export { default as frame } from "./frame.png";
 export { default as github } from "./github.png";
-export { default as lightsass } from "./lightsass.png";
-export { default as metaverse } from "./metaverse.png";
 export { default as ochi } from "./ochi.png";
 export { default as logo } from "./quangngx.svg";
 export { default as supadupa } from "./supadupa.png";
