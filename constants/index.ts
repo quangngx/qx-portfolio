@@ -1,7 +1,7 @@
 import {
     ark, comingsoon,
     flow,
-    github, inglewood, kumology, lavie, qphoto, qphoto2, qphoto3, vdone,
+    inglewood, kumology, lavie, line, qphoto, qphoto2, qphoto3, seedify, vdone,
 } from "@/public";
 
 
@@ -97,11 +97,11 @@ export const projectsGallery = [
     {
         id: 4,
         title: "Line Mini App JP ",
-        src: github,
+        src: line,
         color: "#a7c3e2",
-        href: "/",
+        href: "https://www.bluechip.co.jp/business/business04/",
         time: "2024",
-        role: "UI Design",
+        role: "Management & UI Design",
         description: ""
     },
     {
@@ -111,7 +111,8 @@ export const projectsGallery = [
         color: "#b1bfd1",
         href: "https://https://inglewood.co.jp/",
         time: "2024",
-        role: "Design & Development"
+        role: "Management & Development",
+        description: ""
     },
     {
         id: 6,
@@ -145,7 +146,7 @@ export const projectsGallery = [
     {
         id: 8,
         title: "Seedify VN",
-        src: flow,
+        src: seedify,
         color: "#a7c3e2",
         href: "https://baolamdong.vn/ban-tre/202312/hieu-ich-phan-mem-quan-ly-phong-nuoi-cay-mo-seedify-bi-olab-e09296a/",
         time: "2021",
@@ -154,7 +155,7 @@ export const projectsGallery = [
     {
         id: 9,
         title: "DLU LMS VN",
-        src: flow,
+        src: comingsoon,
         color: "#a7c3e2",
         href: "https://lms.dlu.edu.vn/",
         time: "2021",
@@ -163,7 +164,7 @@ export const projectsGallery = [
     {
         id: 10,
         title: "ICT Center App VN",
-        src: flow,
+        src: comingsoon,
         color: "#a7c3e2",
         href: "https://itc.dlu.edu.vn/cac-khoa-hoc/",
         time: "2021",

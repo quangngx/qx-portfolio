@@ -15,6 +15,8 @@ export { default as lavie } from "./lavie.png";
 export { default as kumology } from "./kumology.png";
 export { default as vdone } from "./vdone.png";
 export { default as comingsoon } from "./comin.png";
+export { default as line } from "./line.png";
+export { default as seedify } from "./seedify.png";
 
 export { default as hero } from "./temp.png";
 export { default as handshake} from "./handshake.webp"
