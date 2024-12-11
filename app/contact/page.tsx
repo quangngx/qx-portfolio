@@ -68,7 +68,7 @@ export default function ContactPage() {
                 transition={{type: "tween", ease: "backOut"}}
             />
             <Navbar/>
-            <section className="max-w-[95%] mx-auto min-h-[90vh] pt-[15em] content-center">
+            <section className="max-w-[95%] mx-auto min-h-[90vh] pt-[5em] md:pt-[8em] content-center">
                 <div className="flex flex-col xl:flex-row gap-[3em] justify-center content-center">
                     <div className="flex flex-col gap-[2em] basis-[48%]">
                         <div className="flex flex-col gap-4">
