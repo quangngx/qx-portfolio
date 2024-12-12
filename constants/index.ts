@@ -109,7 +109,7 @@ export const projectsGallery = [
         title: "inglewood JP",
         src: inglewood,
         color: "#b1bfd1",
-        href: "https://https://inglewood.co.jp/",
+        href: "https://inglewood.co.jp/",
         time: "2024",
         role: "Management & Development",
         description: ""
